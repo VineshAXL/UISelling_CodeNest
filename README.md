@@ -1,16 +1,20 @@
-# React + Vite
+🚀 CodeNest 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CodeNest is a modern web application where users can browse and purchase UI templates and source code. Built using React and Node.js, this project demonstrates a full-stack e-commerce workflow with cart, checkout, and backend integration.
 
-Currently, two official plugins are available:
+✨ Features 🛒 Add to Cart functionality 💳 Checkout system 🔐 Login & Signup system 💾 MongoDB database integration 🌐 Fully responsive UI ⚡ Fast and clean user experience 🛠️ Tech Stack Frontend React.js HTML5 CSS3 JavaScript Backend Node.js Express.js Database MongoDB Atlas 📂 Project Structure CodeNest/ │ ├── frontend/ │ ├── src/ │ │ ├── Pages/ │ │ ├── Components/ │ │ └── App.jsx │ ├── backend/ │ ├── server.js │ └── package.json │ └── README.md 🚀 Getting Started 1️⃣ Clone the repository git clone https://github.com/your-username/CodeNest.git cd CodeNest 2️⃣ Install dependencies Frontend cd frontend npm install npm run dev Backend cd backend npm install node server.js 🔗 Environment Setup 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Update your MongoDB connection in server.js:
 
-## React Compiler
+mongoose.connect("YOUR_MONGODB_URL") 🌍 Deployment Frontend: Vercel Backend: Render 📸 Screenshots 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+(Add your project screenshots here)
 
-## Expanding the ESLint configuration
+📌 Future Improvements 💳 Payment Gateway Integration 👤 User Dashboard 🛠️ Admin Panel 📦 Download purchased UI 🙌 Author 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Vinesh Kumar
+
+⭐ Support 
+
+If you like this project, give it a ⭐ on GitHub!
+
